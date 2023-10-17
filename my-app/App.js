@@ -2,13 +2,16 @@ import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
 import Header from './header';
 import TextInputBody from './TextInputBody';
+import ButtonsBody from './buttonsBody';
 
 const App = () => {
   return (
     <View style={styles.container}>
       <Header />
       <TextInputBody />
+      <ButtonsBody />
       <StatusBar style="auto" />
+
     </View>
   );
 }
